@@ -1,9 +1,4 @@
-class BooksController < BlocWorks::Controller
-  def welcome
-    @book = "Eloquent Ruby"
-    render :welcome
-  end
-
+class LibrariesController < BlocWorks::Controller
   def index
   end
 
